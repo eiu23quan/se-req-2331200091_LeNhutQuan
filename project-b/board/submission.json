@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:51:42.821Z",
+    "savedAt": "2026-05-27T05:52:23.035Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -29,12 +29,32 @@
             "owner": ""
         },
         {
-            "id": "ed85d7f0-8996-4316-95b6-07ee944e504c",
-            "title": "US005",
-            "description": "As a Student Seller, I want to list an item as an auction item with a custom starting bid, so that I can maximize the potential return value from high-demand items.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that the \"Create Listing\" form allows switching between \"Fixed Price\" and \"Auction\" format modes.\n        - [ ] Pass/Fail Check 2: Verify that selecting \"Auction\" forces the user to input a mandatory numerical \"Starting Price\" and \"Auction End Date/Time\".",
+            "id": "ce42dd37-6696-4136-8a25-165de04c469f",
+            "title": "NFR Epic 1: Security (Access Control & Authentication)\nDomain Restricton: The user",
+            "description": "Security (Access Control & Authentication)\nDomain Restricton: The user registration system must enforce strict domain-level authentication, restricting account creation exclusively to users holding a verified \".edu\" email address.",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
-            "type": "User Story",
+            "type": "Epic",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "124b8f4d-60ec-47ab-9c8f-eef8de965e69",
+            "title": "NFR Epic 2: Usability / Reliability (Hardware Integration)\nCamera Integration Acce",
+            "description": "Usability / Reliability (Hardware Integration)\nCamera Integration Access: The mobile application must seamlessly interface with the smartphone's native camera hardware to instantly capture and accurately decode standard ISBN barcodes within 2 seconds.",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "Epic",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "703a9c12-70ab-49e1-a33c-a0b61c31d17b",
+            "title": "NFR Epic 3: Legal Compliance & Security (Data Minimization)\nPayment Architecture I",
+            "description": "Legal Compliance & Security (Data Minimization)\nPayment Architecture Isolation: The system's backend architecture must be entirely decoupled from any financial transaction processing systems, ensuring no banking, credit card, or financial logs are stored within the application database.",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "Epic",
             "priority": "Medium",
             "owner": ""
         }
