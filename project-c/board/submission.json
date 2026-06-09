@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:55:33.951Z",
+    "savedAt": "2026-05-27T05:55:50.169Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -30,12 +30,32 @@
         },
 
         {
-            "id": "a3908427-e729-48d9-b9d8-25b54785b048",
-            "title": "US005",
-            "description": "As a Student, I want to see a live progress tracker of my food order status (e.g., Received, Preparing, Ready for Pickup), so that I know exactly when to arrive at the counter.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that when kitchen staff update an order status on the display, the student's mobile order tracking screen updates its visual progress step within 2 seconds.\n- [ ] Pass/Fail Check 2: Verify that a final push notification warning is pushed to the student device the exact",
+            "id": "38b4b550-10bc-40c4-b5cf-6a828d3573ab",
+            "title": "NFR Epic 1: Offline Operational Resiliency: The Kitchen Display System (KDS) must ",
+            "description": "Offline Operational Resiliency: The Kitchen Display System (KDS) must remain fully operational and interactable in an offline state for a minimum duration of 10 continuous minutes without application crashes or internal memory leaks during local network or Wi-Fi disruptions.",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
-            "type": "User Story",
+            "type": "Epic",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "e6912d04-6ca2-4196-af30-e20d9e79e0bc",
+            "title": "NFR Epic 2: Allergen Exclusion Filtering: The customer-facing user interface must ",
+            "description": "Allergen Exclusion Filtering: The customer-facing user interface must render an instantaneous, error-free menu filtration mechanism that entirely hides all items containing specified allergens (e.g., peanuts) from the screen based on verified user profile preferences.",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "Epic",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "dba14580-5012-483e-b1b1-3bd40317d4c6",
+            "title": "NFR Epic 3: Real-time Inventory Propagation: Status modifications executed by kitc",
+            "description": "Real-time Inventory Propagation: Status modifications executed by kitchen staff (such as marking a menu item as \"Sold Out\") must propagate and update across all active client-side mobile student application interfaces within a maximum latency threshold of 2 seconds.",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "Epic",
             "priority": "Medium",
             "owner": ""
         }
