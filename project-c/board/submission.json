@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:53:58.293Z",
+    "savedAt": "2026-05-27T05:54:30.847Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -30,9 +30,9 @@
         },
 
         {
-            "id": "ef11449d-bb6a-447d-8f35-928ebb6a6c07",
-            "title": "US002",
-            "description": "As a Student with a peanut allergy, I want to filter the entire mobile menu by selecting an allergen exclusion option, so that I can browse food choices safely without feeling anxious.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that selecting the \"No Peanuts\" filter configuration instantly removes the peanut butter cookie card and all other nut-containing item entries from the screen.\n- [ ] Pass/Fail Check 2: Verify that allergen filter settings remain saved and persistent across subs",
+            "id": "ced70d02-db07-4344-b9ad-d46228b7962e",
+            "title": "US003",
+            "description": "As a Student walking from class, I want to browse the menu and order my lunch on my mobile phone, so that I can skip the 20-minute cafeteria queue.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the student can select menu items, append them to a virtual cart, and successfully submit an order via mobile internet connection.\n- [ ] Pass/Fail Check 2: Verify that upon submission, the application generates a unique digital receipt containing a sequential order number and an estimated pic",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
