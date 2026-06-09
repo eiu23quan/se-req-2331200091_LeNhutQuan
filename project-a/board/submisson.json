@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:36:32.045Z",
+    "savedAt": "2026-05-27T05:37:53.301Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -22,6 +22,16 @@
             "id": "f23b7cc5-c616-4cfb-9020-a0281892f37b",
             "title": "US001",
             "description": "As an Academic Advisor, I want to manually override prerequisite restrictions for an eligible student within the system, so that I can instantly resolve exceptional enrollment cases with special permission.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the \"Override Prerequisite\" interface component is visible and interactable ONLY when logged in with authorized Advisor credentials.\n- [ ] Pass/Fail Check 2: Verify that the system prevents the Advisor from saving the override if the",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "User Story",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "ca0d5276-3619-4167-9b8c-ced525534caa",
+            "title": "US002",
+            "description": "As a Student, I want to drag and drop course cards from the catalog sidebar onto a visual calendar layout, so that I can intuitively assess whether the selected classes physically fit into my weekly schedule.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that dragging a course and dropping it into an empty calendar slot automatically snaps the course to its exact scheduled timetabled hours.\n- [ ] Pass/Fail Check 2: Verify that if a dropped course overlaps in time with an already planned",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
