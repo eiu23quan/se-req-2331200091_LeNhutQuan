@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:05:30.994Z",
+    "savedAt": "2026-05-27T05:09:02.420Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -22,8 +22,8 @@
         "ambiguity1": "The request for \"auction items, not just set a fixed price\" from the senior student survey is ambiguous. It lacks technical specifications regarding the auction mechanics: What is the minimum and maximum duration for an active auction? Is the bidding increment configured by the seller or hardcoded by the system? Once the auction timer expires, does the system automatically lock the highest bidder or require manual confirmation from the seller?",
         "ambiguity2": "The Campus Police request to \"force users to select a safe zone before they can chat\" is vague in terms of user workflow. It does not specify whether the buyer or the seller is responsible for initiating this selection before the chat interface unlocks. Furthermore, it is unclear if this selection is rigid or if users can collaboratively change the safe exchange zone midway through their chat session.",
         "conflictSolution": "Conflict: The Student Union President wants to collect a 2% transaction fee, but the University Legal Team strictly prohibits the app from handling money or processing any digital payments, forcing students to use external methods like cash or Venmo. Without processing payments in-app, tracking and enforcing a 2% commission is technically impossible.  \n\nResolution: Adhere to the legal constraints by keeping the app 100% cashless. Replace the 2% transactional model with a \"Fixed Listing Token\" system or a voluntary donation feature. Sellers pay a minor, fixed listing fee (e.g., via a direct static QR code to the Student Union's bank account) to buy standard listing credits before posting an item, instead of the system taking a percentage deduction from the final peer-to-peer sale.",
-        "nfr1": "",
-        "nfr2": "",
-        "nfr3": ""
+        "nfr1": "Security (Access Control & Authentication)\nDomain Restricton: The user registration system must enforce strict domain-level authentication, restricting account creation exclusively to users holding a verified \".edu\" email address.",
+        "nfr2": "Usability / Reliability (Hardware Integration)\nCamera Integration Access: The mobile application must seamlessly interface with the smartphone's native camera hardware to instantly capture and accurately decode standard ISBN barcodes within 2 seconds.",
+        "nfr3": "Legal Compliance & Security (Data Minimization)\nPayment Architecture Isolation: The system's backend architecture must be entirely decoupled from any financial transaction processing systems, ensuring no banking, credit card, or financial logs are stored within the application database."
     }
 }
