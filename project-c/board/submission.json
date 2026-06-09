@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:54:30.847Z",
+    "savedAt": "2026-05-27T05:54:58.663Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -30,9 +30,9 @@
         },
 
         {
-            "id": "ced70d02-db07-4344-b9ad-d46228b7962e",
-            "title": "US003",
-            "description": "As a Student walking from class, I want to browse the menu and order my lunch on my mobile phone, so that I can skip the 20-minute cafeteria queue.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the student can select menu items, append them to a virtual cart, and successfully submit an order via mobile internet connection.\n- [ ] Pass/Fail Check 2: Verify that upon submission, the application generates a unique digital receipt containing a sequential order number and an estimated pic",
+            "id": "92f8536b-f486-47f3-8cb6-d03c338df68f",
+            "title": "US004",
+            "description": "As a Student, I want to receive a push notification at 11:30 AM detailing a discount on the daily special menu item, so that I can save money on my lunch order.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the automated background notification engine pushes a promotional alert text precisely at 11:30 AM server-time to opted-in student devices.\n- [ ] Pass/Fail Check 2: Verify that clicking the received push notification routes the student directly to the specific daily special item",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
