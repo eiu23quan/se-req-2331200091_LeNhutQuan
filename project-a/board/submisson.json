@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:41:45.648Z",
+    "savedAt": "2026-05-27T05:42:25.634Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -29,9 +29,9 @@
             "owner": ""
         },
         {
-            "id": "98e44c8e-3ae7-4c12-871e-2591076349cc",
-            "title": "US004",
-            "description": "As a Student, I want to view live course availability capacities derived straight from the Registrar database, so that I am blocked from building an active semester roadmap around full, inaccessible classes.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that during an active registration period, if a course's registration count equals its maximum capacity, it renders a prominent \"CLASS FULL\" state label.\n- [ ] Pass/Fail Check 2: Verify that clicking or dragging a \"CLASS FULL\" course duri",
+            "id": "771be8ec-5c97-43c1-9ebe-adddc372f508",
+            "title": "US005",
+            "description": "As a Student, I want to project and arrange my planned course choices across a full 4-year draft roadmap layout, so that I can strategically visualize my entire path toward timely graduation.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the roadmap dashboard allows users to toggle and view separate columns/grids mapped out for Year 1, Year 2, Year 3, and Year 4 semesters.\n- [ ] Pass/Fail Check 2: Verify that the system permits structural course planning for future years in Draft Mo",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
