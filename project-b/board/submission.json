@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:48:42.295Z",
+    "savedAt": "2026-05-27T05:49:36.612Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -19,9 +19,9 @@
     ],
     "tickets": [
         {
-            "id": "11cb5a99-22fb-4fb7-956b-6cf4c74c4249",
-            "title": "US001",
-            "description": "As an App Administrator representing the Student Union, I want to configure and update the list of designated official \"Safe Exchange Zones\" on campus, so that students can only meet up in highly secure, police-monitored locations.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that an administrator can add, edit, or delete safe zone location names and descriptions through an admin dashboard.\n        - [ ] Pass/Fail Check 2: Verify that newly added locations appear instant",
+            "id": "7240a409-c168-4639-a2a1-4117dbaab0d4",
+            "title": "US002",
+            "description": "As an Incoming Student, I want to register for an account using only my university \".edu\" email address, so that I can access an exclusive and trustworthy campus-only marketplace ecosystem.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that entering an email address that does not end with \".edu\" during registration throws a validation error and blocks account creation.\n        - [ ] Pass/Fail Check 2: Verify that entering a valid \".edu\" email triggers an automated verific",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
