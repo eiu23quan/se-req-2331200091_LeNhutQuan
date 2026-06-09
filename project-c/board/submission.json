@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:53:22.057Z",
+    "savedAt": "2026-05-27T05:53:58.293Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -22,6 +22,17 @@
             "id": "41a5becf-ed51-406f-86e8-fc208f12c9f5",
             "title": "US001",
             "description": "As a Cafeteria Chef, I want to instantly mark a specific menu item as Sold Out on the kitchen display screen, so that students are immediately prevented from ordering items that are out of stock.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that a prominent \"Mark as Sold Out\" toggle button is available next to each menu item card on the kitchen display UI.\n- [ ] Pass/Fail Check 2: Verify that toggling an item to \"Sold Out\" changes its visual background state to grey and immediately upda",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "User Story",
+            "priority": "Medium",
+            "owner": ""
+        },
+
+        {
+            "id": "ef11449d-bb6a-447d-8f35-928ebb6a6c07",
+            "title": "US002",
+            "description": "As a Student with a peanut allergy, I want to filter the entire mobile menu by selecting an allergen exclusion option, so that I can browse food choices safely without feeling anxious.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that selecting the \"No Peanuts\" filter configuration instantly removes the peanut butter cookie card and all other nut-containing item entries from the screen.\n- [ ] Pass/Fail Check 2: Verify that allergen filter settings remain saved and persistent across subs",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
