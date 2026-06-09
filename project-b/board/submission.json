@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:51:07.868Z",
+    "savedAt": "2026-05-27T05:51:42.821Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -29,9 +29,9 @@
             "owner": ""
         },
         {
-            "id": "4ad01ecd-b440-44de-a54d-3f5a1a23b9a0",
-            "title": "US004",
-            "description": "As a Senior Student looking to sell books, I want to scan a textbook's barcode using my phone's camera, so that the app automatically fills in the ISBN and Title details for me.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that clicking the \"Scan Barcode\" button requests and activates the phone's native camera permission.\n        - [ ] Pass/Fail Check 2: Verify that upon successful barcode recognition, the system automatically fetches and populates the matching \"Title\" a",
+            "id": "ed85d7f0-8996-4316-95b6-07ee944e504c",
+            "title": "US005",
+            "description": "As a Student Seller, I want to list an item as an auction item with a custom starting bid, so that I can maximize the potential return value from high-demand items.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that the \"Create Listing\" form allows switching between \"Fixed Price\" and \"Auction\" format modes.\n        - [ ] Pass/Fail Check 2: Verify that selecting \"Auction\" forces the user to input a mandatory numerical \"Starting Price\" and \"Auction End Date/Time\".",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
