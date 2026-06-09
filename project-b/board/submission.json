@@ -1,0 +1,29 @@
+{
+    "savedAt": "2026-05-27T05:03:40.704Z",
+    "groups": [
+        {
+            "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
+            "name": "Blockers",
+            "color": "#2563eb"
+        },
+        {
+            "id": "5a18486e-5acf-463e-9771-425738bc962b",
+            "name": "Standard Work",
+            "color": "#059669"
+        },
+        {
+            "id": "7b2512ad-00c7-4185-baaf-a0e477779980",
+            "name": "Minors",
+            "color": "#d97706"
+        }
+    ],
+    "tickets": [],
+    "analysis": {
+        "ambiguity1": "The request for \"auction items, not just set a fixed price\" from the senior student survey is ambiguous. It lacks technical specifications regarding the auction mechanics: What is the minimum and maximum duration for an active auction? Is the bidding increment configured by the seller or hardcoded by the system? Once the auction timer expires, does the system automatically lock the highest bidder or require manual confirmation from the seller?",
+        "ambiguity2": "",
+        "conflictSolution": "",
+        "nfr1": "",
+        "nfr2": "",
+        "nfr3": ""
+    }
+}
