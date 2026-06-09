@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:42:25.634Z",
+    "savedAt": "2026-05-27T05:43:15.156Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -29,12 +29,32 @@
             "owner": ""
         },
         {
-            "id": "771be8ec-5c97-43c1-9ebe-adddc372f508",
-            "title": "US005",
-            "description": "As a Student, I want to project and arrange my planned course choices across a full 4-year draft roadmap layout, so that I can strategically visualize my entire path toward timely graduation.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the roadmap dashboard allows users to toggle and view separate columns/grids mapped out for Year 1, Year 2, Year 3, and Year 4 semesters.\n- [ ] Pass/Fail Check 2: Verify that the system permits structural course planning for future years in Draft Mo",
+            "id": "c495a927-cca8-49e2-86d2-7ae9f430ac79",
+            "title": "NFR Epic 1: Security (Data Privacy)\nData Isolation: Under no circumstances should ",
+            "description": "Security (Data Privacy)\nData Isolation: Under no circumstances should any student account be granted permission or system access to view, search, or read another student's generated academic schedule or personal roadmap",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
-            "type": "User Story",
+            "type": "Epic",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "4468e340-aa84-45ff-a003-e8e971814db2",
+            "title": "NFR Epic 2: Auditability / Maintainability (System Logging)\nAudit Trail: The syste",
+            "description": "Auditability / Maintainability (System Logging)\nAudit Trail: The system must automatically and immutably log every event where an advisor executes a manual prerequisite override, capturing the advisor ID, student ID, timestamp, and the mandatory justification text.",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "Epic",
+            "priority": "Medium",
+            "owner": ""
+        },
+        {
+            "id": "2900b147-79b9-48e2-88af-ed684cbca941",
+            "title": "NFR Epic 3: Performance & Reliability (Database Integration)\nLive Database Synchro",
+            "description": "Performance & Reliability (Database Integration)\nLive Database Synchronization: The roadmap application must maintain a continuous, low-latency API connection with the university's central live Registrar database to guarantee up-to-the-minute structural course and capacity status verification.",
+            "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
+            "status": "todo",
+            "type": "Epic",
             "priority": "Medium",
             "owner": ""
         }
