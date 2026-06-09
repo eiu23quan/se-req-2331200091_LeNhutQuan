@@ -1,0 +1,29 @@
+{
+    "savedAt": "2026-05-27T04:31:54.650Z",
+    "groups": [
+        {
+            "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
+            "name": "Blockers",
+            "color": "#2563eb"
+        },
+        {
+            "id": "5a18486e-5acf-463e-9771-425738bc962b",
+            "name": "Standard Work",
+            "color": "#059669"
+        },
+        {
+            "id": "7b2512ad-00c7-4185-baaf-a0e477779980",
+            "name": "Minors",
+            "color": "#d97706"
+        }
+    ],
+    "tickets": [],
+    "analysis": {
+        "ambiguity1": "The statement from the Head of Advising regarding \"manual override if a student has special permission\" is highly ambiguous. It fails to define what criteria, conditions, or physical documentation qualify as \"special permission\". Additionally, it does not specify whether this override requires a multi-step digital approval workflow or a direct privilege granted unconditionally to specific advisor roles.",
+        "ambiguity2": "",
+        "conflictSolution": "",
+        "nfr1": "",
+        "nfr2": "",
+        "nfr3": ""
+    }
+}
