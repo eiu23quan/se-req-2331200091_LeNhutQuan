@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:49:36.612Z",
+    "savedAt": "2026-05-27T05:50:25.965Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -29,9 +29,9 @@
             "owner": ""
         },
         {
-            "id": "7240a409-c168-4639-a2a1-4117dbaab0d4",
-            "title": "US002",
-            "description": "As an Incoming Student, I want to register for an account using only my university \".edu\" email address, so that I can access an exclusive and trustworthy campus-only marketplace ecosystem.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that entering an email address that does not end with \".edu\" during registration throws a validation error and blocks account creation.\n        - [ ] Pass/Fail Check 2: Verify that entering a valid \".edu\" email triggers an automated verific",
+            "id": "69f224c5-50f3-4f81-85d8-e5b53d98d2f0",
+            "title": "US003",
+            "description": "As a Buyer Student, I want to be forced to select a pre-approved Safe Exchange Zone before starting a chat conversation with a seller, so that my physical meetup safety is prioritized from the start.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that clicking the \"Message Seller\" button prompts a compulsory pop-up modal requiring a safe zone selection.\n        - [ ] Pass/Fail Check 2: Verify that the chat log interface remains locked/disabled until a specific zone option",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
