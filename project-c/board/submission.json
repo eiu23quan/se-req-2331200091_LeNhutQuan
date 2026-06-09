@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:13:08.619Z",
+    "savedAt": "2026-05-27T05:14:03.121Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -20,7 +20,7 @@
     "tickets": [],
     "analysis": {
         "ambiguity1": "The Marketing Department's request to \"send push notifications to students at 11:30 AM offering them a discount\" is ambiguous regarding its target audience scope. It does not clarify whether the notification should be blasted globally to all registered student accounts, or filtered based on real-time geo-location proximity to the cafeteria and historical purchasing behavior. Additionally, it lacks parameters on user preference configurations to prevent spamming students who opt out of promotional messages.",
-        "ambiguity2": "",
+        "ambiguity2": "The Chef's requirement to \"mark an item as Sold Out instantly\" is ambiguous regarding concurrency and active shopping sessions. The system does not specify how to handle transactional edge cases where a student has already added the item (e.g., the vegan wrap) to their shopping cart and is mid-checkout at the exact millisecond the Chef toggles the status to sold out. It needs to define whether the system should forcefully eject the item from active carts or trigger a custom real-time inventory validation error during payment.",
         "conflictSolution": "",
         "nfr1": "",
         "nfr2": "",
