@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:54:58.663Z",
+    "savedAt": "2026-05-27T05:55:33.951Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -30,9 +30,9 @@
         },
 
         {
-            "id": "92f8536b-f486-47f3-8cb6-d03c338df68f",
-            "title": "US004",
-            "description": "As a Student, I want to receive a push notification at 11:30 AM detailing a discount on the daily special menu item, so that I can save money on my lunch order.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that the automated background notification engine pushes a promotional alert text precisely at 11:30 AM server-time to opted-in student devices.\n- [ ] Pass/Fail Check 2: Verify that clicking the received push notification routes the student directly to the specific daily special item",
+            "id": "a3908427-e729-48d9-b9d8-25b54785b048",
+            "title": "US005",
+            "description": "As a Student, I want to see a live progress tracker of my food order status (e.g., Received, Preparing, Ready for Pickup), so that I know exactly when to arrive at the counter.\n\nAcceptance Criteria:\n- [ ] Pass/Fail Check 1: Verify that when kitchen staff update an order status on the display, the student's mobile order tracking screen updates its visual progress step within 2 seconds.\n- [ ] Pass/Fail Check 2: Verify that a final push notification warning is pushed to the student device the exact",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
