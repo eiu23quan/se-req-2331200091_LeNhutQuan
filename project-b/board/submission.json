@@ -1,5 +1,5 @@
 {
-    "savedAt": "2026-05-27T05:50:25.965Z",
+    "savedAt": "2026-05-27T05:51:07.868Z",
     "groups": [
         {
             "id": "99e2b583-3bf7-4877-9a53-77e3b525b3dd",
@@ -29,9 +29,9 @@
             "owner": ""
         },
         {
-            "id": "69f224c5-50f3-4f81-85d8-e5b53d98d2f0",
-            "title": "US003",
-            "description": "As a Buyer Student, I want to be forced to select a pre-approved Safe Exchange Zone before starting a chat conversation with a seller, so that my physical meetup safety is prioritized from the start.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that clicking the \"Message Seller\" button prompts a compulsory pop-up modal requiring a safe zone selection.\n        - [ ] Pass/Fail Check 2: Verify that the chat log interface remains locked/disabled until a specific zone option",
+            "id": "4ad01ecd-b440-44de-a54d-3f5a1a23b9a0",
+            "title": "US004",
+            "description": "As a Senior Student looking to sell books, I want to scan a textbook's barcode using my phone's camera, so that the app automatically fills in the ISBN and Title details for me.\n\n        Acceptance Criteria:\n        - [ ] Pass/Fail Check 1: Verify that clicking the \"Scan Barcode\" button requests and activates the phone's native camera permission.\n        - [ ] Pass/Fail Check 2: Verify that upon successful barcode recognition, the system automatically fetches and populates the matching \"Title\" a",
             "groupId": "5a18486e-5acf-463e-9771-425738bc962b",
             "status": "todo",
             "type": "User Story",
